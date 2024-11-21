@@ -58,8 +58,3 @@ This project showcases an innovative system for transmitting and reconstructing 
 - Improve difference detection algorithms for more efficient updates.
 - Extend the system to support higher resolutions.
 - Explore encryption techniques for secure data transmission.
-
----
-
-## **License**
-This project is open-source and available under the [MIT License](LICENSE).
