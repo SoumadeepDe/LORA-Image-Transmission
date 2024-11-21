@@ -32,6 +32,12 @@ This project showcases an innovative system for transmitting and reconstructing 
 
 ---
 
+## **Code Files**
+- **`LORA_Node_ImageTransmitCode.py`**: The Python script that runs on the LoRa node. It captures images, processes pixel data, and transmits the data to TTN.
+- **`Laptop_ImageReceiveCode.py`**: The Python script that runs on the laptop. It receives image data from TTN, reconstructs the images, and saves them incrementally.
+
+---
+
 ## **How It Works**
 1. The Raspberry Pi captures an image using the USB camera.
 2. The image is resized to 128x128 and optimized by converting pixel data into run-length encoding.
@@ -53,3 +59,7 @@ This project showcases an innovative system for transmitting and reconstructing 
 - Extend the system to support higher resolutions.
 - Explore encryption techniques for secure data transmission.
 
+---
+
+## **License**
+This project is open-source and available under the [MIT License](LICENSE).
